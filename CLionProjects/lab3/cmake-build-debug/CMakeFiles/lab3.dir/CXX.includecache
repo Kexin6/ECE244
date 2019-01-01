@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kexinli/CLionProjects/lab3/globals.h
+string
+-
+
+/Users/kexinli/CLionProjects/lab3/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+globals.h
+/Users/kexinli/CLionProjects/lab3/globals.h
+shape.h
+/Users/kexinli/CLionProjects/lab3/shape.h
+
+/Users/kexinli/CLionProjects/lab3/shape.cpp
+iostream
+-
+string
+-
+shape.h
+/Users/kexinli/CLionProjects/lab3/shape.h
+
+/Users/kexinli/CLionProjects/lab3/shape.h
+iostream
+-
+string
+-
+
